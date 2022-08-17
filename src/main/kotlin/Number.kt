@@ -26,4 +26,24 @@ fun main() {
     println(decimalLiterals)
     println(hexadecimalLiterals)
     println(binaryLiterals)
+
+    // underscore
+    var price : Long = 9_000_000L
+
+    println(price)
+
+    // conversion
+    var number : Int = 200
+
+    var byte : Byte = number.toByte()
+    var short : Short = number.toShort()
+    var long : Long = number.toLong()
+    var float : Float = number.toFloat()
+    var double : Double = number.toDouble()
+
+    println(byte)
+    println(short)
+    println(long)
+    println(float)
+    println(double)
 }
