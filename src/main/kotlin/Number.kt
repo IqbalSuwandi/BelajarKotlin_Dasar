@@ -17,4 +17,13 @@ fun main() {
 
     println(value)
     println(radius)
+
+    // literals
+    var decimalLiterals : Int = 100
+    var hexadecimalLiterals : Int = 0xFFFFFF
+    var binaryLiterals : Int = 0b0001
+
+    println(decimalLiterals)
+    println(hexadecimalLiterals)
+    println(binaryLiterals)
 }
