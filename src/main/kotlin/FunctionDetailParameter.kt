@@ -1,4 +1,4 @@
-fun hello(firstName : String, lastName : String? = null) {
+fun hello(firstName: String, lastName: String? = null) {
     if (lastName == null) {
         println("Hello $firstName")
     } else {
@@ -10,5 +10,5 @@ fun main() {
     hello("Iqbal")
     hello("Iqbal", "Suwandi")
     hello("Codet")
-    hello("Dugong", "Garul")
+    hello("Dugong")
 }
